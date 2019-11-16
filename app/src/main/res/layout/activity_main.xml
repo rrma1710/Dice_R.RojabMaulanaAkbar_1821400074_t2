@@ -12,10 +12,25 @@
     android:paddingRight="0dp"
     tools:context=".MainActivity">
 
-    <ImageView
+    <TextView
+        android:id="@+id/nilai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/image_view_dice"
-        android:src="@drawable/dice_6"
-        android:scaleType="centerInside" />
+        android:text="Hello World!"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btn_CEK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACAK"
+        android:paddingBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/empty_dice" />
+
 </LinearLayout>
